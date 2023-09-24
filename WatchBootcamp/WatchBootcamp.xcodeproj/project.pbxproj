@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FDFF99B2AC0A34B00FA926E /* DigitalCrownBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFF99A2AC0A34B00FA926E /* DigitalCrownBootcamp.swift */; };
+		1FDFF99D2AC0A43300FA926E /* HapticBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFF99C2AC0A43300FA926E /* HapticBootcamp.swift */; };
+		1FDFF99F2AC0A60100FA926E /* TapLocationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFF99E2AC0A60100FA926E /* TapLocationBootcamp.swift */; };
+		1FDFF9A12AC0A8AD00FA926E /* MotionSensorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDFF9A02AC0A8AD00FA926E /* MotionSensorBootcamp.swift */; };
+		1FF68AB22ABF5C950027C1B8 /* WatchBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68AB12ABF5C950027C1B8 /* WatchBootcampApp.swift */; };
+		1FF68AB42ABF5C950027C1B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68AB32ABF5C950027C1B8 /* ContentView.swift */; };
+		1FF68AB62ABF5C960027C1B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF68AB52ABF5C960027C1B8 /* Assets.xcassets */; };
+		1FF68AB92ABF5C960027C1B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF68AB82ABF5C960027C1B8 /* Preview Assets.xcassets */; };
+		1FF68AC32ABF5C960027C1B8 /* WatchBootcamp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68AC22ABF5C960027C1B8 /* WatchBootcamp_Watch_AppTests.swift */; };
+		1FF68ACD2ABF5C960027C1B8 /* WatchBootcamp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68ACC2ABF5C960027C1B8 /* WatchBootcamp_Watch_AppUITests.swift */; };
+		1FF68ACF2ABF5C960027C1B8 /* WatchBootcamp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68ACE2ABF5C960027C1B8 /* WatchBootcamp_Watch_AppUITestsLaunchTests.swift */; };
+		1FF68AE82ABF5EE60027C1B8 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68AE72ABF5EE60027C1B8 /* TextBootcamp.swift */; };
+		1FF68AEA2ABF5EFB0027C1B8 /* LabelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68AE92ABF5EFB0027C1B8 /* LabelBootcamp.swift */; };
+		1FF68AEC2ABF5F480027C1B8 /* ButtonBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68AEB2ABF5F480027C1B8 /* ButtonBootcamp.swift */; };
+		1FF68AEE2ABF5FCF0027C1B8 /* ImageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68AED2ABF5FCF0027C1B8 /* ImageBootcamp.swift */; };
+		1FF68AF02ABF60A50027C1B8 /* SliderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68AEF2ABF60A50027C1B8 /* SliderBootcamp.swift */; };
+		1FF68AF22ABF61B50027C1B8 /* LabledContentBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68AF12ABF61B50027C1B8 /* LabledContentBootcamp.swift */; };
+		1FF68AF42ABF61F50027C1B8 /* StepperBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68AF32ABF61F50027C1B8 /* StepperBootcamp.swift */; };
+		1FF68AF62ABF630D0027C1B8 /* PickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68AF52ABF630D0027C1B8 /* PickerBootcamp.swift */; };
+		1FF68AF82ABF648D0027C1B8 /* ProgressViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68AF72ABF648D0027C1B8 /* ProgressViewBootcamp.swift */; };
+		1FF68AFA2ABF672A0027C1B8 /* GaugeBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68AF92ABF672A0027C1B8 /* GaugeBootCamp.swift */; };
+		1FF68AFC2ABF68FE0027C1B8 /* ToggleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68AFB2ABF68FE0027C1B8 /* ToggleBootcamp.swift */; };
+		1FF68AFE2ABF69880027C1B8 /* TextFieldBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68AFD2ABF69880027C1B8 /* TextFieldBootcamp.swift */; };
+		1FF68B002ABF6A100027C1B8 /* SecureFieldBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68AFF2ABF6A100027C1B8 /* SecureFieldBootcamp.swift */; };
+		1FF68B022ABF74300027C1B8 /* CustomfontBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68B012ABF74300027C1B8 /* CustomfontBootcamp.swift */; };
+		1FF68B042ABF74510027C1B8 /* DS-DIGI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 1FF68B032ABF74510027C1B8 /* DS-DIGI.TTF */; };
+		1FF68B072ABF75810027C1B8 /* ChartBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68B062ABF75810027C1B8 /* ChartBootcamp.swift */; };
+		1FF68B092ABF824C0027C1B8 /* MapBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68B082ABF824C0027C1B8 /* MapBootcamp.swift */; };
+		1FF68B0B2ABF8BBA0027C1B8 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF68B0A2ABF8BBA0027C1B8 /* art.scnassets */; };
+		1FF68B0D2ABF8C520027C1B8 /* SceneBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68B0C2ABF8C520027C1B8 /* SceneBootcamp.swift */; };
+		1FF68B0F2ABF8EB90027C1B8 /* PlayVideoBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68B0E2ABF8EB90027C1B8 /* PlayVideoBootcamp.swift */; };
+		1FF68B112ABF912C0027C1B8 /* water.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FF68B102ABF912C0027C1B8 /* water.mp4 */; };
+		1FF68B132ABF92E10027C1B8 /* PlayAudioBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68B122ABF92E10027C1B8 /* PlayAudioBootcamp.swift */; };
+		1FF68B152ABF93ED0027C1B8 /* Jeena.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1FF68B142ABF93ED0027C1B8 /* Jeena.mp3 */; };
+		1FF68B172ABF95F10027C1B8 /* NowPlayingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68B162ABF95F10027C1B8 /* NowPlayingBootcamp.swift */; };
+		1FF68B192ABF963F0027C1B8 /* NavigationLinkBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68B182ABF963F0027C1B8 /* NavigationLinkBootcamp.swift */; };
+		1FF68B1B2ABF975E0027C1B8 /* ModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68B1A2ABF975E0027C1B8 /* ModelBootcamp.swift */; };
+		1FF68B1D2ABF98100027C1B8 /* TabViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68B1C2ABF98100027C1B8 /* TabViewBootcamp.swift */; };
+		1FF68B1F2ABF98D10027C1B8 /* AlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF68B1E2ABF98D10027C1B8 /* AlertBootcamp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FF68ABF2ABF5C960027C1B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FF68AA62ABF5C950027C1B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FF68AAD2ABF5C950027C1B8;
+			remoteInfo = "WatchBootcamp Watch App";
+		};
+		1FF68AC92ABF5C960027C1B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FF68AA62ABF5C950027C1B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FF68AAD2ABF5C950027C1B8;
+			remoteInfo = "WatchBootcamp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FDFF99A2AC0A34B00FA926E /* DigitalCrownBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalCrownBootcamp.swift; sourceTree = "<group>"; };
+		1FDFF99C2AC0A43300FA926E /* HapticBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticBootcamp.swift; sourceTree = "<group>"; };
+		1FDFF99E2AC0A60100FA926E /* TapLocationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapLocationBootcamp.swift; sourceTree = "<group>"; };
+		1FDFF9A02AC0A8AD00FA926E /* MotionSensorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSensorBootcamp.swift; sourceTree = "<group>"; };
+		1FF68AAE2ABF5C950027C1B8 /* WatchBootcamp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchBootcamp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF68AB12ABF5C950027C1B8 /* WatchBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchBootcampApp.swift; sourceTree = "<group>"; };
+		1FF68AB32ABF5C950027C1B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FF68AB52ABF5C960027C1B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FF68AB82ABF5C960027C1B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FF68ABE2ABF5C960027C1B8 /* WatchBootcamp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchBootcamp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF68AC22ABF5C960027C1B8 /* WatchBootcamp_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchBootcamp_Watch_AppTests.swift; sourceTree = "<group>"; };
+		1FF68AC82ABF5C960027C1B8 /* WatchBootcamp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchBootcamp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF68ACC2ABF5C960027C1B8 /* WatchBootcamp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchBootcamp_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		1FF68ACE2ABF5C960027C1B8 /* WatchBootcamp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchBootcamp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1FF68AE72ABF5EE60027C1B8 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
+		1FF68AE92ABF5EFB0027C1B8 /* LabelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelBootcamp.swift; sourceTree = "<group>"; };
+		1FF68AEB2ABF5F480027C1B8 /* ButtonBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBootcamp.swift; sourceTree = "<group>"; };
+		1FF68AED2ABF5FCF0027C1B8 /* ImageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBootcamp.swift; sourceTree = "<group>"; };
+		1FF68AEF2ABF60A50027C1B8 /* SliderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderBootcamp.swift; sourceTree = "<group>"; };
+		1FF68AF12ABF61B50027C1B8 /* LabledContentBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabledContentBootcamp.swift; sourceTree = "<group>"; };
+		1FF68AF32ABF61F50027C1B8 /* StepperBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperBootcamp.swift; sourceTree = "<group>"; };
+		1FF68AF52ABF630D0027C1B8 /* PickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerBootcamp.swift; sourceTree = "<group>"; };
+		1FF68AF72ABF648D0027C1B8 /* ProgressViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewBootcamp.swift; sourceTree = "<group>"; };
+		1FF68AF92ABF672A0027C1B8 /* GaugeBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeBootCamp.swift; sourceTree = "<group>"; };
+		1FF68AFB2ABF68FE0027C1B8 /* ToggleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBootcamp.swift; sourceTree = "<group>"; };
+		1FF68AFD2ABF69880027C1B8 /* TextFieldBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBootcamp.swift; sourceTree = "<group>"; };
+		1FF68AFF2ABF6A100027C1B8 /* SecureFieldBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldBootcamp.swift; sourceTree = "<group>"; };
+		1FF68B012ABF74300027C1B8 /* CustomfontBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomfontBootcamp.swift; sourceTree = "<group>"; };
+		1FF68B032ABF74510027C1B8 /* DS-DIGI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGI.TTF"; sourceTree = "<group>"; };
+		1FF68B052ABF745F0027C1B8 /* WatchBootcamp-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WatchBootcamp-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1FF68B062ABF75810027C1B8 /* ChartBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartBootcamp.swift; sourceTree = "<group>"; };
+		1FF68B082ABF824C0027C1B8 /* MapBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBootcamp.swift; sourceTree = "<group>"; };
+		1FF68B0A2ABF8BBA0027C1B8 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		1FF68B0C2ABF8C520027C1B8 /* SceneBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneBootcamp.swift; sourceTree = "<group>"; };
+		1FF68B0E2ABF8EB90027C1B8 /* PlayVideoBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideoBootcamp.swift; sourceTree = "<group>"; };
+		1FF68B102ABF912C0027C1B8 /* water.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = water.mp4; sourceTree = "<group>"; };
+		1FF68B122ABF92E10027C1B8 /* PlayAudioBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAudioBootcamp.swift; sourceTree = "<group>"; };
+		1FF68B142ABF93ED0027C1B8 /* Jeena.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Jeena.mp3; sourceTree = "<group>"; };
+		1FF68B162ABF95F10027C1B8 /* NowPlayingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingBootcamp.swift; sourceTree = "<group>"; };
+		1FF68B182ABF963F0027C1B8 /* NavigationLinkBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLinkBootcamp.swift; sourceTree = "<group>"; };
+		1FF68B1A2ABF975E0027C1B8 /* ModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelBootcamp.swift; sourceTree = "<group>"; };
+		1FF68B1C2ABF98100027C1B8 /* TabViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBootcamp.swift; sourceTree = "<group>"; };
+		1FF68B1E2ABF98D10027C1B8 /* AlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootcamp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FF68AAB2ABF5C950027C1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF68ABB2ABF5C960027C1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF68AC52ABF5C960027C1B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FF68AA52ABF5C950027C1B8 = {
+			isa = PBXGroup;
+			children = (
+				1FF68AB02ABF5C950027C1B8 /* WatchBootcamp Watch App */,
+				1FF68AC12ABF5C960027C1B8 /* WatchBootcamp Watch AppTests */,
+				1FF68ACB2ABF5C960027C1B8 /* WatchBootcamp Watch AppUITests */,
+				1FF68AAF2ABF5C950027C1B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FF68AAF2ABF5C950027C1B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FF68AAE2ABF5C950027C1B8 /* WatchBootcamp Watch App.app */,
+				1FF68ABE2ABF5C960027C1B8 /* WatchBootcamp Watch AppTests.xctest */,
+				1FF68AC82ABF5C960027C1B8 /* WatchBootcamp Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FF68AB02ABF5C950027C1B8 /* WatchBootcamp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				1FF68B052ABF745F0027C1B8 /* WatchBootcamp-Watch-App-Info.plist */,
+				1FF68AB12ABF5C950027C1B8 /* WatchBootcampApp.swift */,
+				1FF68AB32ABF5C950027C1B8 /* ContentView.swift */,
+				1FF68ADC2ABF5CB60027C1B8 /* Views */,
+				1FF68ADB2ABF5CA70027C1B8 /* Resources */,
+				1FF68AB72ABF5C960027C1B8 /* Preview Content */,
+			);
+			path = "WatchBootcamp Watch App";
+			sourceTree = "<group>";
+		};
+		1FF68AB72ABF5C960027C1B8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1FF68AB82ABF5C960027C1B8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FF68AC12ABF5C960027C1B8 /* WatchBootcamp Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FF68AC22ABF5C960027C1B8 /* WatchBootcamp_Watch_AppTests.swift */,
+			);
+			path = "WatchBootcamp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		1FF68ACB2ABF5C960027C1B8 /* WatchBootcamp Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FF68ACC2ABF5C960027C1B8 /* WatchBootcamp_Watch_AppUITests.swift */,
+				1FF68ACE2ABF5C960027C1B8 /* WatchBootcamp_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "WatchBootcamp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		1FF68ADB2ABF5CA70027C1B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FF68B142ABF93ED0027C1B8 /* Jeena.mp3 */,
+				1FF68B102ABF912C0027C1B8 /* water.mp4 */,
+				1FF68B0A2ABF8BBA0027C1B8 /* art.scnassets */,
+				1FF68B032ABF74510027C1B8 /* DS-DIGI.TTF */,
+				1FF68AB52ABF5C960027C1B8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1FF68ADC2ABF5CB60027C1B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FF68AE72ABF5EE60027C1B8 /* TextBootcamp.swift */,
+				1FF68AE92ABF5EFB0027C1B8 /* LabelBootcamp.swift */,
+				1FF68AF12ABF61B50027C1B8 /* LabledContentBootcamp.swift */,
+				1FF68AEB2ABF5F480027C1B8 /* ButtonBootcamp.swift */,
+				1FF68AED2ABF5FCF0027C1B8 /* ImageBootcamp.swift */,
+				1FF68AEF2ABF60A50027C1B8 /* SliderBootcamp.swift */,
+				1FF68AF32ABF61F50027C1B8 /* StepperBootcamp.swift */,
+				1FF68AF52ABF630D0027C1B8 /* PickerBootcamp.swift */,
+				1FF68AF72ABF648D0027C1B8 /* ProgressViewBootcamp.swift */,
+				1FF68AF92ABF672A0027C1B8 /* GaugeBootCamp.swift */,
+				1FF68AFB2ABF68FE0027C1B8 /* ToggleBootcamp.swift */,
+				1FF68AFD2ABF69880027C1B8 /* TextFieldBootcamp.swift */,
+				1FF68AFF2ABF6A100027C1B8 /* SecureFieldBootcamp.swift */,
+				1FF68B012ABF74300027C1B8 /* CustomfontBootcamp.swift */,
+				1FF68B062ABF75810027C1B8 /* ChartBootcamp.swift */,
+				1FF68B082ABF824C0027C1B8 /* MapBootcamp.swift */,
+				1FF68B0C2ABF8C520027C1B8 /* SceneBootcamp.swift */,
+				1FF68B0E2ABF8EB90027C1B8 /* PlayVideoBootcamp.swift */,
+				1FF68B122ABF92E10027C1B8 /* PlayAudioBootcamp.swift */,
+				1FF68B162ABF95F10027C1B8 /* NowPlayingBootcamp.swift */,
+				1FF68B182ABF963F0027C1B8 /* NavigationLinkBootcamp.swift */,
+				1FF68B1A2ABF975E0027C1B8 /* ModelBootcamp.swift */,
+				1FF68B1C2ABF98100027C1B8 /* TabViewBootcamp.swift */,
+				1FF68B1E2ABF98D10027C1B8 /* AlertBootcamp.swift */,
+				1FDFF99A2AC0A34B00FA926E /* DigitalCrownBootcamp.swift */,
+				1FDFF99C2AC0A43300FA926E /* HapticBootcamp.swift */,
+				1FDFF99E2AC0A60100FA926E /* TapLocationBootcamp.swift */,
+				1FDFF9A02AC0A8AD00FA926E /* MotionSensorBootcamp.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FF68AAD2ABF5C950027C1B8 /* WatchBootcamp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF68AD22ABF5C960027C1B8 /* Build configuration list for PBXNativeTarget "WatchBootcamp Watch App" */;
+			buildPhases = (
+				1FF68AAA2ABF5C950027C1B8 /* Sources */,
+				1FF68AAB2ABF5C950027C1B8 /* Frameworks */,
+				1FF68AAC2ABF5C950027C1B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchBootcamp Watch App";
+			productName = "WatchBootcamp Watch App";
+			productReference = 1FF68AAE2ABF5C950027C1B8 /* WatchBootcamp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FF68ABD2ABF5C960027C1B8 /* WatchBootcamp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF68AD52ABF5C960027C1B8 /* Build configuration list for PBXNativeTarget "WatchBootcamp Watch AppTests" */;
+			buildPhases = (
+				1FF68ABA2ABF5C960027C1B8 /* Sources */,
+				1FF68ABB2ABF5C960027C1B8 /* Frameworks */,
+				1FF68ABC2ABF5C960027C1B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FF68AC02ABF5C960027C1B8 /* PBXTargetDependency */,
+			);
+			name = "WatchBootcamp Watch AppTests";
+			productName = "WatchBootcamp Watch AppTests";
+			productReference = 1FF68ABE2ABF5C960027C1B8 /* WatchBootcamp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FF68AC72ABF5C960027C1B8 /* WatchBootcamp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FF68AD82ABF5C960027C1B8 /* Build configuration list for PBXNativeTarget "WatchBootcamp Watch AppUITests" */;
+			buildPhases = (
+				1FF68AC42ABF5C960027C1B8 /* Sources */,
+				1FF68AC52ABF5C960027C1B8 /* Frameworks */,
+				1FF68AC62ABF5C960027C1B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FF68ACA2ABF5C960027C1B8 /* PBXTargetDependency */,
+			);
+			name = "WatchBootcamp Watch AppUITests";
+			productName = "WatchBootcamp Watch AppUITests";
+			productReference = 1FF68AC82ABF5C960027C1B8 /* WatchBootcamp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FF68AA62ABF5C950027C1B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1FF68AAD2ABF5C950027C1B8 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					1FF68ABD2ABF5C960027C1B8 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 1FF68AAD2ABF5C950027C1B8;
+					};
+					1FF68AC72ABF5C960027C1B8 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 1FF68AAD2ABF5C950027C1B8;
+					};
+				};
+			};
+			buildConfigurationList = 1FF68AA92ABF5C950027C1B8 /* Build configuration list for PBXProject "WatchBootcamp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FF68AA52ABF5C950027C1B8;
+			productRefGroup = 1FF68AAF2ABF5C950027C1B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FF68AAD2ABF5C950027C1B8 /* WatchBootcamp Watch App */,
+				1FF68ABD2ABF5C960027C1B8 /* WatchBootcamp Watch AppTests */,
+				1FF68AC72ABF5C960027C1B8 /* WatchBootcamp Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FF68AAC2ABF5C950027C1B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF68B042ABF74510027C1B8 /* DS-DIGI.TTF in Resources */,
+				1FF68B0B2ABF8BBA0027C1B8 /* art.scnassets in Resources */,
+				1FF68B112ABF912C0027C1B8 /* water.mp4 in Resources */,
+				1FF68AB92ABF5C960027C1B8 /* Preview Assets.xcassets in Resources */,
+				1FF68AB62ABF5C960027C1B8 /* Assets.xcassets in Resources */,
+				1FF68B152ABF93ED0027C1B8 /* Jeena.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF68ABC2ABF5C960027C1B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF68AC62ABF5C960027C1B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FF68AAA2ABF5C950027C1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FDFF99B2AC0A34B00FA926E /* DigitalCrownBootcamp.swift in Sources */,
+				1FDFF99D2AC0A43300FA926E /* HapticBootcamp.swift in Sources */,
+				1FF68AFE2ABF69880027C1B8 /* TextFieldBootcamp.swift in Sources */,
+				1FF68B092ABF824C0027C1B8 /* MapBootcamp.swift in Sources */,
+				1FF68AFA2ABF672A0027C1B8 /* GaugeBootCamp.swift in Sources */,
+				1FF68AB42ABF5C950027C1B8 /* ContentView.swift in Sources */,
+				1FF68B1B2ABF975E0027C1B8 /* ModelBootcamp.swift in Sources */,
+				1FF68AB22ABF5C950027C1B8 /* WatchBootcampApp.swift in Sources */,
+				1FF68AF82ABF648D0027C1B8 /* ProgressViewBootcamp.swift in Sources */,
+				1FF68B1F2ABF98D10027C1B8 /* AlertBootcamp.swift in Sources */,
+				1FF68B0D2ABF8C520027C1B8 /* SceneBootcamp.swift in Sources */,
+				1FF68B072ABF75810027C1B8 /* ChartBootcamp.swift in Sources */,
+				1FF68B192ABF963F0027C1B8 /* NavigationLinkBootcamp.swift in Sources */,
+				1FF68AFC2ABF68FE0027C1B8 /* ToggleBootcamp.swift in Sources */,
+				1FF68AF22ABF61B50027C1B8 /* LabledContentBootcamp.swift in Sources */,
+				1FF68B002ABF6A100027C1B8 /* SecureFieldBootcamp.swift in Sources */,
+				1FF68AEC2ABF5F480027C1B8 /* ButtonBootcamp.swift in Sources */,
+				1FF68B172ABF95F10027C1B8 /* NowPlayingBootcamp.swift in Sources */,
+				1FF68B0F2ABF8EB90027C1B8 /* PlayVideoBootcamp.swift in Sources */,
+				1FF68B132ABF92E10027C1B8 /* PlayAudioBootcamp.swift in Sources */,
+				1FF68AF62ABF630D0027C1B8 /* PickerBootcamp.swift in Sources */,
+				1FF68B022ABF74300027C1B8 /* CustomfontBootcamp.swift in Sources */,
+				1FF68AE82ABF5EE60027C1B8 /* TextBootcamp.swift in Sources */,
+				1FF68B1D2ABF98100027C1B8 /* TabViewBootcamp.swift in Sources */,
+				1FDFF9A12AC0A8AD00FA926E /* MotionSensorBootcamp.swift in Sources */,
+				1FDFF99F2AC0A60100FA926E /* TapLocationBootcamp.swift in Sources */,
+				1FF68AEE2ABF5FCF0027C1B8 /* ImageBootcamp.swift in Sources */,
+				1FF68AF42ABF61F50027C1B8 /* StepperBootcamp.swift in Sources */,
+				1FF68AEA2ABF5EFB0027C1B8 /* LabelBootcamp.swift in Sources */,
+				1FF68AF02ABF60A50027C1B8 /* SliderBootcamp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF68ABA2ABF5C960027C1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF68AC32ABF5C960027C1B8 /* WatchBootcamp_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FF68AC42ABF5C960027C1B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF68ACD2ABF5C960027C1B8 /* WatchBootcamp_Watch_AppUITests.swift in Sources */,
+				1FF68ACF2ABF5C960027C1B8 /* WatchBootcamp_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FF68AC02ABF5C960027C1B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FF68AAD2ABF5C950027C1B8 /* WatchBootcamp Watch App */;
+			targetProxy = 1FF68ABF2ABF5C960027C1B8 /* PBXContainerItemProxy */;
+		};
+		1FF68ACA2ABF5C960027C1B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FF68AAD2ABF5C950027C1B8 /* WatchBootcamp Watch App */;
+			targetProxy = 1FF68AC92ABF5C960027C1B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FF68AD02ABF5C960027C1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FF68AD12ABF5C960027C1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1FF68AD32ABF5C960027C1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchBootcamp Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WatchBootcamp-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WatchBootcamp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		1FF68AD42ABF5C960027C1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchBootcamp Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WatchBootcamp-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = WatchBootcamp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		1FF68AD62ABF5C960027C1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ganeshrajugalla.WatchBootcamp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchBootcamp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchBootcamp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		1FF68AD72ABF5C960027C1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ganeshrajugalla.WatchBootcamp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchBootcamp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchBootcamp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		1FF68AD92ABF5C960027C1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ganeshrajugalla.WatchBootcamp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WatchBootcamp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		1FF68ADA2ABF5C960027C1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ganeshrajugalla.WatchBootcamp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WatchBootcamp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FF68AA92ABF5C950027C1B8 /* Build configuration list for PBXProject "WatchBootcamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF68AD02ABF5C960027C1B8 /* Debug */,
+				1FF68AD12ABF5C960027C1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF68AD22ABF5C960027C1B8 /* Build configuration list for PBXNativeTarget "WatchBootcamp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF68AD32ABF5C960027C1B8 /* Debug */,
+				1FF68AD42ABF5C960027C1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF68AD52ABF5C960027C1B8 /* Build configuration list for PBXNativeTarget "WatchBootcamp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF68AD62ABF5C960027C1B8 /* Debug */,
+				1FF68AD72ABF5C960027C1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FF68AD82ABF5C960027C1B8 /* Build configuration list for PBXNativeTarget "WatchBootcamp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FF68AD92ABF5C960027C1B8 /* Debug */,
+				1FF68ADA2ABF5C960027C1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FF68AA62ABF5C950027C1B8 /* Project object */;
+}
